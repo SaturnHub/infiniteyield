@@ -14,8 +14,6 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-ver = '5.9.1'
-
 Players = game:GetService("Players")
 
 Holder = Instance.new("Frame")
@@ -206,7 +204,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "Infinite Yield FE v"..ver
+Title.Text = "Infinite Yield FE Premium"
 
 do
 	local emoji = ({
